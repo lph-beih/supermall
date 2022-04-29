@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .tabbar-content {
   height: 49px;
-  background: rgba(244, 237, 237, 0.65);
+  background-color: azure;
   box-shadow: -2px -2px 2px #eee;
   display: flex;
   justify-content: space-around;

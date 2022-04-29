@@ -9,7 +9,7 @@
       <a :href="item.link">
         <img :src="item.image" alt="" />
       </a>
-      <div>{{ item.title }}</div>
+      <div class="text">{{ item.title }}</div>
     </div>
   </div>
 </template>
@@ -24,9 +24,7 @@ export default {
       },
     },
   },
-  created() {
-    console.log(this.recommendList);
-  },
+  created() {},
   data() {
     return {};
   },
@@ -51,6 +49,11 @@ export default {
     img {
       height: 80px;
       width: 80px;
+      padding-bottom: 6px;
+    }
+
+    .text {
+      font-size: 12px;
     }
   }
 }
