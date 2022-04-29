@@ -40,7 +40,6 @@
         <div class="tabbar-text" slot="tabbar-text">档案</div>
       </Tab-Bar-Item>
     </Tab-Bar>
-    <router-link to="/home">去首页</router-link>
   </div>
 </template>
 
